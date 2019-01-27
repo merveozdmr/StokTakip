@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "FirmaSil";
+}
+
+@using StokTakip.Models
+@model Firma
+
+<div class="row">
+    <div class="portlet light bordered">
+        <div class="portlet-title">
+            <div class="caption">
+
+                <span class="caption-subject font-red-sunglo bold uppercase">FİRMA SİLME SAYFASI</span>
+
+            </div>
+
+        </div>
+
+        <div class="block-content-outer">
+            <div class="block-content-inner">
+                <form action="/Firma/FirmaSil" method="post">
+                    <input type="hidden" name="FirmaID" value="@Model.FirmaID" />
+                    <label>@Model.FirmaAdi Adlı Personel Silinsin Mi?</label><br />
+                    <input type="submit" name="name" value="Evet" class="btn btn-success img-rounded" />
+                    <a href="@Url.Action("Index","Firma")" class="btn btn-default">Hayır</a>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+

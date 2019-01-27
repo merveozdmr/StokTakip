@@ -1,0 +1,135 @@
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\StokTakip.dll.config
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\StokTakip.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\StokTakip.pdb
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\System.Web.Helpers.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\System.Web.Mvc.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\System.Web.Razor.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\System.Web.Webpages.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\System.Web.Webpages.Razor.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\System.Web.Razor.xml
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\System.Web.Webpages.xml
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\System.Web.Webpages.Razor.xml
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\System.Web.Helpers.xml
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\System.Web.Mvc.xml
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\obj\Debug\StokTakip.csprojResolveAssemblyReference.cache
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\obj\Debug\StokTakip.csproj.CoreCompileInputs.cache
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\obj\Debug\StokTakip.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\obj\Debug\StokTakip.pdb
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\EntityFramework.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\EntityFramework.SqlServer.dll
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\EntityFramework.xml
+C:\Users\Merve\Desktop\Merve Dosyalar\ders\proje tasarımı dersi,\StokTakipSon\StokTakip\StokTakip\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.pdb
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\StokTakip.dll.config
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\StokTakip.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\StokTakip.pdb
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\EntityFramework.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\System.Web.Helpers.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\System.Web.Mvc.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\System.Web.Razor.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\System.Web.Webpages.Deployment.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\System.Web.Webpages.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\System.Web.Webpages.Razor.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\EntityFramework.xml
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\System.Web.Razor.xml
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\System.Web.Webpages.xml
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\System.Web.Webpages.Deployment.xml
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\System.Web.Webpages.Razor.xml
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\System.Web.Helpers.xml
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\System.Web.Mvc.xml
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\tr\System.Web.Razor.resources.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\iTextSharp.dll
+C:\Users\user\Desktop\StokTakip\StokTakip\bin\Rotativa.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\StokTakip.dll.config
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\StokTakip.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\StokTakip.pdb
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\EntityFramework.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\EntityFramework.SqlServer.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\iTextSharp.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\Microsoft.Web.Infrastructure.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\Rotativa.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\System.Web.Helpers.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\System.Web.Mvc.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\System.Web.Razor.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\System.Web.WebPages.Deployment.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\System.Web.WebPages.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\System.Web.WebPages.Razor.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\EntityFramework.xml
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\EntityFramework.SqlServer.xml
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\System.Web.Helpers.xml
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\System.Web.Mvc.xml
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\System.Web.Razor.xml
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\System.Web.WebPages.xml
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\System.Web.WebPages.Deployment.xml
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\System.Web.WebPages.Razor.xml
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\tr\System.Web.Helpers.resources.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\tr\System.Web.Mvc.resources.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\tr\System.Web.Razor.resources.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\tr\System.Web.WebPages.resources.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\tr\System.Web.WebPages.Deployment.resources.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\bin\tr\System.Web.WebPages.Razor.resources.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\obj\Debug\StokTakip.csprojResolveAssemblyReference.cache
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\obj\Debug\StokTakip.csproj.CoreCompileInputs.cache
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\obj\Debug\StokTakip.dll
+C:\ders\proje tasarımı dersi,\StokTakip\StokTakip\obj\Debug\StokTakip.pdb
+C:\Users\user\Desktop\StokTakip\StokTakip\obj\Debug\StokTakip.csprojResolveAssemblyReference.cache
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\StokTakip.dll.config
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\StokTakip.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\StokTakip.pdb
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\EntityFramework.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\EntityFramework.SqlServer.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\iTextSharp.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\Microsoft.Web.Infrastructure.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\Rotativa.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\System.Web.Helpers.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\System.Web.Mvc.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\System.Web.Razor.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\System.Web.WebPages.Deployment.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\System.Web.WebPages.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\System.Web.WebPages.Razor.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\EntityFramework.xml
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\EntityFramework.SqlServer.xml
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\System.Web.Helpers.xml
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\System.Web.Mvc.xml
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\System.Web.Razor.xml
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\System.Web.WebPages.xml
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\System.Web.WebPages.Deployment.xml
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\System.Web.WebPages.Razor.xml
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\tr\System.Web.Helpers.resources.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\tr\System.Web.Mvc.resources.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\tr\System.Web.Razor.resources.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\tr\System.Web.WebPages.resources.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\tr\System.Web.WebPages.Deployment.resources.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\bin\tr\System.Web.WebPages.Razor.resources.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\obj\Debug\StokTakip.csprojAssemblyReference.cache
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\obj\Debug\StokTakip.csproj.CoreCompileInputs.cache
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\obj\Debug\StokTakip.csproj.CopyComplete
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\obj\Debug\StokTakip.dll
+D:\proje\stoktakip\StokTakip\StokTakip\StokTakip\obj\Debug\StokTakip.pdb

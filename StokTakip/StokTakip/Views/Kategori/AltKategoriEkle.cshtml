@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "AltKategoriEkle";
+}
+
+@using StokTakip.Models
+
+<div class="row">
+    <div class="portlet light bordered">
+        <div class="portlet-title">
+            <div class="caption">
+
+                <span class="caption-subject font-red-sunglo bold uppercase">ALT KATEGORİ EKLEME SAYFASI</span>
+
+            </div>
+        </div>
+
+
+        <div class="portlet-body form">
+            <!-- BEGIN FORM-->
+            <form action="/Kategori/AltKategoriEkle" class="form-horizontal" method="post" role="form">
+                
+                <div class="form-body">
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Kategori Adı</label>
+                        <div class="col-md-4">
+                            @*<div class="form-group">*@
+
+                            <select class="form-control" name="KategoriID">
+                                @foreach (Kategori ktg in ViewBag.Kategori)
+                                {
+                                    <option value="@ktg.KategoriID">@ktg.KategoriAdi</option>
+                                }
+                            </select>
+                            @*</div>*@
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Alt Kategori Adı</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="AltKategoriAdi" placeholder="Alt Kategori Giriniz">
+                           
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="form-actions">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-9">
+                            <button type="submit" class="btn green">Ekle</button>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- END FORM-->
+        </div>
+    </div>
+</div>
+

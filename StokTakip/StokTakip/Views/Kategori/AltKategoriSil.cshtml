@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "AltKategoriSil";
+}
+
+@using StokTakip.Models
+
+@model AltKategori
+
+<div class="row">
+    <div class="portlet light bordered">
+        <div class="portlet-title">
+            <div class="caption">
+
+                <span class="caption-subject font-red-sunglo bold uppercase">ALT KATEGORİ SİLME SAYFASI</span>
+
+            </div>
+
+        </div>
+
+        <div class="block-content-outer">
+            <div class="block-content-inner">
+                <form action="/Kategori/AltKategoriSil" method="post">
+                    <input type="hidden" name="AltKategoriID" value="@Model.AltKategoriID" />
+                    <label>@Model.AltKategoriAdi Adlı Kategori Silinsin Mi?</label><br />
+                    <input type="submit" name="name" value="Evet" class="btn btn-success img-rounded" />
+                    <a href="@Url.Action("AltKategori","Kategori")" class="btn btn-default">Hayır</a>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>

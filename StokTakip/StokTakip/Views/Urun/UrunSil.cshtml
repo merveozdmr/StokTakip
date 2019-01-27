@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "UrunSil";
+}
+
+@using StokTakip.Models
+@model Urun
+
+<div class="row">
+    <div class="portlet light bordered">
+        <div class="portlet-title">
+            <div class="caption">
+
+                <span class="caption-subject font-red-sunglo bold uppercase">ÜRÜN SİLME SAYFASI</span>
+
+            </div>
+
+        </div>
+
+        <div class="block-content-outer">
+            <div class="block-content-inner">
+                <form action="/Urun/UrunSil" method="post">
+                    <input type="hidden" name="UrunID" value="@Model.UrunID" />
+                    <label>@Model.UrunAdi Adlı Ürün Silinsin Mi?</label><br />
+                    <input type="submit" name="name" value="Evet" class="btn btn-success img-rounded" />
+                    <a href="@Url.Action("Index","Urun")" class="btn btn-default">Hayır</a>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+

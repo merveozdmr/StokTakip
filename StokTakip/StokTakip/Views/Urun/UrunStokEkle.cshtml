@@ -1,0 +1,181 @@
+﻿
+@{
+    ViewBag.Title = "UrunStokEkle";
+}
+
+@using StokTakip.Models
+
+<div class="row">
+    <div class="portlet light bordered">
+        <div class="portlet-title">
+            <div class="caption">
+
+                <span class="caption-subject font-red-sunglo bold uppercase">ÜRÜN STOK EKLEME SAYFASI</span>
+
+            </div>
+        </div>
+
+        <div class="portlet-body form">
+            <!-- BEGIN FORM-->
+            <form action="/Urun/UrunStokEkle" class="form-horizontal" method="post" role="form">
+                <div class="form-body">
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Ürün Adı</label>
+                        <div class="col-md-4">
+                            @*<div class="form-group">*@
+
+                            <select class="form-control" name="UrunID">
+                                @foreach (Urun u in ViewBag.Urun)
+                                {
+                                    <option value="@u.UrunID">@u.UrunAdi</option>
+                                }
+                            </select>
+                            @*</div>*@
+
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Marka</label>
+                        <div class="col-md-4">
+                            @*<div class="form-group">*@
+
+                            <select class="form-control" name="UrunID">
+                                @foreach (Urun u in ViewBag.Urun)
+                                {
+                                    <option value="@u.UrunID">@u.Marka</option>
+                                }
+                            </select>
+                            @*</div>*@
+
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Model</label>
+                        <div class="col-md-4">
+                            @*<div class="form-group">*@
+
+                            <select class="form-control" name="UrunID">
+                                @foreach (Urun u in ViewBag.Urun)
+                                {
+                                    <option value="@u.UrunID">@u.Model</option>
+                                }
+                            </select>
+                            @*</div>*@
+
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Stok Adedi</label>
+                        <div class="col-md-4">
+                            <input type="number" class="form-control" name="StokAdet" placeholder="Stok Giriniz">
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Birim</label>
+                        <div class="col-md-4">
+                            @*<div class="form-group">*@
+
+                            <select class="form-control" name="BirimID">
+                                @foreach (Birim u in ViewBag.Birim)
+                                {
+                                    <option value="@u.BirimID">@u.BirimAdi</option>
+                                }
+                            </select>
+                            @*</div>*@
+
+                        </div>
+
+                    </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Depo Adı</label>
+                            <div class="col-md-4">
+
+                                @Html.DropDownList("Depo", ViewBag.DepoListesi as SelectList, "---Depo Seçiniz---", new { @style = "width: 400px" })
+
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Raf Adı</label>
+                            <div class="col-md-4">
+
+                                @Html.DropDownList("RafID", Enumerable.Empty<SelectListItem>(), "---Raf Seçiniz---", new { @style = "width: 400px" })
+
+                            </div>
+
+                        </div>
+                    </div>
+                <div class="form-actions">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-9">
+                            <button type="submit" class="btn green">Ekle</button>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- END FORM-->
+        </div>
+    </div>
+</div>
+
+@section  scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Kategori seçildiğinde bu fonksiyonumuz çalışmaya başlayacaktır.
+            $('#Depo').change(function () {
+
+                $('#RafID').empty();
+
+                // Seçilen Kategorinin ID sini alıyoruz.
+                var DepoID = $(this).val();
+
+                /*Seçilen FakulteID sini kullanarak
+                Home(Controller) sınıfı içerisindeki BolumleriGetir
+                Action metodunu çağırıyoruz.
+                Bu metoddan dönen liste sayesinde .each fonksiyonu ile
+                Bolum isimli DropDownList nesnesini dolduruyoruz.*/
+                if (DepoID != null && DepoID != '') {
+                    $.ajax({
+                        type: "get",
+                        url: '@Url.Action("RafGetir", "Urun")',
+                    data: { DepoID: DepoID },
+                    success: function (RafGetir) {
+
+                        $.each(RafGetir, function (RafID, Raf) {
+                            $('#RafID').append($('<option/>', {
+                                value: Raf.RafID,
+                                text: Raf.RafAdi
+                            }));
+                        });
+
+                    },
+                    error: function () {
+                        /*Bu metod ile Ajax işlemi başarısız
+                        olursa eğer hata mesajı verebiliyoruz.*/
+                        alert("Hata");
+                    },
+                    beforeSend: function () {
+                        /*Burada ise Form Post edilmeden önce
+                        işlemler yapılabilir.Örnek olarak Loading, yükleniyor vs..*/
+                    },
+                    complete: function () {
+                        /*Burada ise Form Post edildikten sonra
+                        işlemler yapılabilir.Örnek olarak yükleme tamamlandı vs..*/
+                    }
+                });
+            }
+        });
+        });
+
+
+
+    </script>
+}
+

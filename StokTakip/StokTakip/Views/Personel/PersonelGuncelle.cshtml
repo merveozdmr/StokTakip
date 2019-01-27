@@ -1,0 +1,138 @@
+﻿
+@{
+    ViewBag.Title = "PersonelGuncelle";
+}
+
+<link href="Content/theme/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" />
+
+@using StokTakip.Models
+
+<div class="row">
+    <div class="portlet light bordered">
+        <div class="portlet-title">
+            <div class="caption">
+
+                <span class="caption-subject font-red-sunglo bold uppercase">PERSONEL GÜNCELLEME SAYFASI</span>
+
+            </div>
+        </div>
+
+
+        <div class="portlet-body form">
+            <!-- BEGIN FORM-->
+            <form action="/Personel/PersonelGuncelle" class="form-horizontal" method="post" role="form">
+                @Html.ValidationSummary(true)
+                <input type="hidden" name="PersonelID" value="@Model.PersonelID" />
+                <div class="form-body">
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Personel Adı</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="PersonelAd" value="@Model.PersonelAd">
+                            @Html.ValidationMessage("PersonelAd", "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Personel Soyadı</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="PersonelSoyad" value="@Model.PersonelSoyad">
+                            @Html.ValidationMessage("PersonelSoyad", "", new { @class = "text-danger" })
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">TC No</label>
+                        <div class="col-md-4">
+                            <input type="number" class="form-control" name="TcNo" value="@Model.TcNo">
+                            @Html.ValidationMessage("TcNo", "", new { @class = "text-danger" })
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Cinsiyet  </label>
+                        <div class="mt-radio-inline">
+                            <label class="mt-radio">
+                                <input type="radio" name="Cinsiyet" @*id="optionsRadios4"*@ value="Kadın" checked> Kadın
+                                <span></span>
+                            </label>
+                            <label class="mt-radio">
+                                <input type="radio" name="Cinsiyet" @*id="optionsRadios5"*@ value="Erkek"> Erkek
+                                <span></span>
+                            </label>
+
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="control-label col-md-3">Doğum Tarihi</label>
+                        <div class="col-md-4">
+                            <div class="input-group date date-picker" data-date-format="dd-mm-yyyy">
+                                <input type="date" class="form-control" name="DogumTarih" value="@Model.DogumTarih">
+                                @Html.ValidationMessage("DogumTarih", "", new { @class = "text-danger" })
+                                <span class="input-group-btn">
+                                    <button class="btn default" type="button">
+                                        <i class="fa fa-calendar"></i>
+                                    </button>
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                  
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Adres</label>
+                        <div class="col-md-4">
+                            <textarea class="form-control" name="PersonelAdres" value="@Model.PersonelAdres" rows="3"></textarea>
+                            @Html.ValidationMessage("PersonelAdres", "", new { @class = "text-danger" })
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Telefon</label>
+                        <div class="col-md-4">
+                            <input type="number" class="form-control" name="PersonelTelefon" value="@Model.PersonelTelefon">
+                            @Html.ValidationMessage("Telefon", "", new { @class = "text-danger" })
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Email</label>
+                        <div class="col-md-4">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="fa fa-envelope"></i>
+                                </span>
+                                <input type="email" name="Email" class="form-control" value="@Model.Email">
+                                @Html.ValidationMessage("Email", "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-3">Kayıt Tarihi</label>
+                        <div class="col-md-4">
+                            <div class="input-group date date-picker" data-date-format="dd-mm-yyyy">
+                                <input type="date" class="form-control" name="KayitTarih" value="@Model.KayitTarih">
+                                @Html.ValidationMessage("KayitTarih", "", new { @class = "text-danger" })
+                                <span class="input-group-btn">
+                                    <button class="btn default" type="button">
+                                        <i class="fa fa-calendar"></i>
+                                    </button>
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-9">
+                            <button type="submit" class="btn green">Güncelle</button>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- END FORM-->
+        </div>
+    </div>
+</div>

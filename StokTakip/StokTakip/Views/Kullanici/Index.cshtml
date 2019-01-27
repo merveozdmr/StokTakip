@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewBag.Title = "Üyeler";
+}
+
+@using System.Web.Security
+
+@model MembershipUserCollection
+
+
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="portlet">
+            <div class="portlet-title">
+                <div class="caption font-dark">
+
+                    <span class="caption-subject bold uppercase">ÜYELER</span>
+                </div>
+               
+            </div>
+            <div class="portlet-body">
+                <div class="table-toolbar">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="btn-group">
+                                <a href="/Kullanici/Ekle" id="sample_editable_1_new" class="btn sbold green">
+                                    Yeni Üye
+                                    <i class="fa fa-plus"></i>
+                                </a>
+                                @*<button id="sample_editable_1_new" class="btn sbold green">
+                                        Yeni Personel
+                                        <i class="fa fa-plus"></i>
+                                    </button>*@
+                            </div>
+                            <div class="btn-group">
+
+                                <a href="/Kullanici/RolAta" id="sample_editable_1_new" class="btn sbold green">
+                                Rol Ekle
+                                    <i class="fa fa-plus"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="btn-group pull-right">
+                                <a href="/Kullanıcı/KullanıcıPDF" id="sample_editable_1_new" class="btn sbold green">PDF AL</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_1">
+                    <thead>
+                        <tr>
+                            
+                            <th>Kullanıcı Adı</th>
+                            <th>Email</th>
+                            <th>Kayıt tarihi</th>
+                            <th>Son Giriş Tarihi</th>
+                            <th>Rolleri</th>
+                            <th>Sil</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (MembershipUser mu in Model)
+                        {
+                            <tr class="odd gradeX">
+                                
+                                <td>@mu.UserName</td>
+                                <td>@mu.Email</td>
+                                <td>@String.Format("{0:dd/MM/yyyy}", mu.CreationDate)</td>
+                                <td>@String.Format("{0:dd/MM/yyyy}", mu.LastLoginDate)</td> 
+                                <td><a class="btn btn-success img-rounded rolleri" data-uyeadi="@mu.UserName">Rolleri</a></td>
+                                <td><a href="/Kullanici/Sil/@mu.UserName" class="btn btn-outline btn-circle dark btn-sm black"><i class="fa fa-trash-o"></i> Sil </a></td>
+                                
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- END EXAMPLE TABLE PORTLET-->
+    </div>
+</div>
+
+
+@section scripts{
+    <script src="~/Content/bower_components/bootstrap-datepicker/tests/assets/jquery-1.7.1.min.js"></script>
+    <script>
+
+        $(".rolleri").click(function () {
+            var ka = $(this).data("uyeadi");
+            $.ajax({
+                type: "POST",
+                url: "/Kullanici/UyeRolleri",
+                data:{kullaniciAdi:ka},
+                success: function (veri) {
+                    alert(veri);
+                }
+            });
+        });
+    </script>
+
+}
+
+
+

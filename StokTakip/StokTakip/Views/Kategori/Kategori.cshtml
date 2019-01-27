@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewBag.Title = "Kategori";
+}
+
+@using StokTakip.Models
+@model List<Kategori>
+
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="portlet">
+            <div class="portlet-title">
+                <div class="caption font-dark">
+
+                    <span class="caption-subject bold uppercase">KATEGORİLER</span>
+                </div>
+                @using (Html.BeginForm("Kategori", "Kategori", FormMethod.Get))
+                {
+
+
+
+                    <div class="col-md-4" style="float:right; margin:5px auto">
+                        <div class="input-group">
+                            <span class="input-group-btn btn-left">
+                                <input class="btn red-soft" type="submit"  value="Search">
+                                <i class="fa fa-search"></i>
+
+                            </span>
+                            <div class="input-group-control">
+                                <input type="text" class="form-control edited" name="Search" style="width:360px" placeholder="Listelenecek Firma Girin" />
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+            <div class="portlet-body">
+                <div class="table-toolbar">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="btn-group">
+                                <a href="/Kategori/KategoriEkle" id="sample_editable_1_new" class="btn sbold green">
+                                    Yeni Kategori
+                                    <i class="fa fa-plus"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                            
+                        <div class="col-md-6">
+                            <div class="btn-group pull-right">
+                                <a href="/Kategori/KategoriPDF" id="sample_editable_1_new" class="btn sbold green">PDF AL</a>
+                               
+                            </div>
+                        </div>
+                    
+                </div>
+                </div>
+                <table class="table table-striped table-bordered table-hover table-checkable order-column" id="sample_1">
+                    <thead>
+                        <tr>
+                            
+                            <th>ID</th>
+                            <th>Kategori Adı</th>
+                            <th>Güncelle</th>
+                            <th>Sil</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Kategori k in Model)
+                        {
+                            <tr class="odd gradeX">
+                                
+                                <td>@k.KategoriID</td>
+                                <td>@k.KategoriAdi</td> 
+                                <td><a href="/Kategori/KategoriGuncelle/@k.KategoriID" class="btn btn-outline btn-circle btn-sm purple"><i class="fa fa-edit"></i> Güncelle </a></td>
+                                <td><a href="/Kategori/KategoriSil/@k.KategoriID" class="btn btn-outline btn-circle dark btn-sm black"><i class="fa fa-trash-o"></i> Sil </a></td>
+                                
+
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- END EXAMPLE TABLE PORTLET-->
+    </div>
+ </div>
+</div>
+
+

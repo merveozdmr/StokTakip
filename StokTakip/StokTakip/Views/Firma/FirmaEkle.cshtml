@@ -1,0 +1,119 @@
+﻿
+@{
+    ViewBag.Title = "FirmaEkle";
+}
+
+@using StokTakip.Models
+
+<div class="row">
+    <div class="portlet light bordered">
+        <div class="portlet-title">
+            <div class="caption">
+                <span class="caption-subject font-red-sunglo bold uppercase">FİRMA EKLEME SAYFASI</span>
+            </div>
+        </div>
+
+        <div class="portlet-body form">
+            <!-- BEGIN FORM-->
+            <form action="/Firma/FirmaEkle" class="form-horizontal" method="post" role="form">
+                @Html.ValidationSummary(true)
+                <div class="form-body">
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Firma Adı</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="FirmaAdi" placeholder="Firma Adı Giriniz">
+                            @Html.ValidationMessage("FirmaAdi", "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Yetkili Ad Soyad</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="YetkiliAdSoyad" placeholder="Yetkili Giriniz">
+                            @Html.ValidationMessage("YetkiliAdSoyad", "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Yetkili Ünvanı</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="YetkiliUnvani" placeholder="Yetkili Ünvanı Giriniz">
+                            @Html.ValidationMessage("YetkiliUnvani", "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Ülke</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="Ulke" placeholder="Ülke Giriniz">
+                            @Html.ValidationMessage("Ulke", "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Şehir</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="Sehir" placeholder="Şehir Giriniz">
+                            @Html.ValidationMessage("Sehir", "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Adres</label>
+                        <div class="col-md-4">
+                            <textarea class="form-control" name="Adres" placeholder="Adres Giriniz" rows="3"></textarea>
+                            @Html.ValidationMessage("Adres", "", new { @class = "text-danger" })
+                        </div>
+                     </div>  
+                    
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Email</label>
+                        <div class="col-md-4">
+                            <input type="email" class="form-control" name="Email" placeholder="Email Giriniz">
+                            @Html.ValidationMessage("Email", "", new { @class = "text-danger" })
+                        </div>
+                        </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Telefon</label>
+                            <div class="col-md-4">
+                                <input type="number" class="form-control" name="Telefon" placeholder="Telefon Giriniz">
+                                @Html.ValidationMessage("Telefon", "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Faks</label>
+                            <div class="col-md-4">
+                                <input type="number" class="form-control" name="Faks" placeholder="Faks No Giriniz">
+                                @Html.ValidationMessage("Faks", "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Web Sayfası</label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" name="WebSayfasi" placeholder="Web Sayfası Giriniz">
+                                @Html.ValidationMessage("WebSayfasi", "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                    </div>
+                <div class="form-actions">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-9">
+                            <button type="submit" class="btn green">Ekle</button>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+</div>
+
+
+
